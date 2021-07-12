@@ -71,7 +71,17 @@ nav, navbar{
     border-radius: 9%;
     box-shadow: 0px 24px 104px #0bc5ea;
 }
-
+.col-lg-5 .boton{
+    text-align-last: center;
+}
+.col-lg-5 .boton img{
+    width: 100%;
+    height: auto;
+}
+#preins img{
+    width: 100%;
+    height: auto;
+}
 
 .barraSup{
     background-color: black;
