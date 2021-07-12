@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/*
+html {
+	font-size: 16px;
+}
+*/
+body{
+    background-color: white;
+    font-family: 'Roboto Slab', serif;
+}
+baner{
+    width: 100%;
+    height: 20%;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+}
+nav, img{
+    width: 100%;
+    height: 30vh;
+}
+nav, navbar{
+    width: 100%;
+    height:  auto;
+}
+.navbar{
+    background-color: #d16f48;
+    border: solid;
+}
+.navbar li{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.navbar a{
+    padding: 0;
+    white-space: nowrap;
+    color: #000000;
+    font-size: 139%;
+}
+#carrusel{
+    width: 100%;
+    height: auto;
+
+}
+#carrusel img{
+    width: 100%;
+    height: 100%;
+}
+.oferta h1{
+    text-align: center;
+    margin-top: 5%;
+    box-shadow: 10px 10px 14px 2px rgba(222 32 32 / 78%);
+    background-color: chocolate;
+}
+.targeta{
+    margin: 5%;
+    padding: 0%;
+}
+.col-lg-5{
+    margin: 3%;
+    padding: 1%;
+    border-radius: 50%;
+}
+.col-lg-5 img{
+    border-radius: 9%;
+    box-shadow: 0px 24px 104px #0bc5ea;
+}
+
+
+.barraSup{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.barraSup ul{
+    display:  flex;
+    flex-direction:  row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.barraSup a{
+    color: white;
+    text-decoration: none;
+}
+/*
+.post{
+    display:   block;
+    width: 100%;
+    height: auto;
+}
+*/
+.post h2{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 14px 2px rgba(32 80 222 / 96%);
+    margin-top: 7%;
+    margin-bottom: 8%;
+    background-color: cornflowerblue;
+}
+.contacto{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 14px 2px rgba(32 80 222 / 96%);
+    margin-top: 7%;
+    margin-bottom: 8%;
+    background-color: cornflowerblue;
+}
+.redsocial{
+    display: flex;
+    flex-direction: row;
+    justify-content:  center;
+}
+.redsocial img{
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+
+/* red social
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+*/
