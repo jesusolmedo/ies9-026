@@ -83,7 +83,9 @@ nav, navbar{
     height: auto;
 }
 
-
+.comentario h2{
+    text-align: center;
+}
 
 
 .barraSup{
