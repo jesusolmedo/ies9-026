@@ -3,11 +3,13 @@
     padding: 0;
 
 }
-/*
+
 html {
-	font-size: 16px;
+    width: 100%;
+    height: auto;
+    display: flex;
 }
-*/
+
 body{
     background-color: white;
     font-family: 'Roboto Slab', serif;
@@ -30,7 +32,7 @@ nav, navbar{
     height:  auto;
 }
 .navbar{
-    background-color: #d16f48;
+    background-color: #080504;
     border: solid;
 }
 .navbar li{
@@ -40,8 +42,32 @@ nav, navbar{
 .navbar a{
     padding: 0;
     white-space: nowrap;
-    color: #000000;
+    color: aliceblue;
     font-size: 139%;
+}
+.navbar-nav a{
+    color:aliceblue;
+
+}
+.navbar-light .navbar-nav .nav-link, a {
+    color: rgb(249 249 249 / 90%);
+}
+.navp{
+    color: rgb(249 249 249 / 90%);
+}
+.container, .container-fluid{
+    padding: 0%;
+}
+.primero{
+    background-color: rgb(119, 186, 224);
+    margin-bottom: 0%;
+    padding-bottom: 2%;
+}
+.presentacion{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    padding: 2%;
 }
 #carrusel{
     width: 100%;
@@ -54,9 +80,10 @@ nav, navbar{
 }
 .oferta h1{
     text-align: center;
-    margin-top: 5%;
-    box-shadow: 10px 10px 14px 2px rgba(222 32 32 / 78%);
-    background-color: chocolate;
+    margin-top: 1%;
+    box-shadow: 20px 20px 2px  hsl(47, 89%, 65%);
+    background-color: rgb(119, 186, 224);
+    border: solid;
 }
 .targeta{
     margin: 5%;
@@ -85,6 +112,9 @@ nav, navbar{
 
 .comentario h2{
     text-align: center;
+    color: #212529;
+    border: solid;
+    box-shadow: 0px 0px 20px 14px;
 }
 
 
@@ -114,6 +144,10 @@ nav, navbar{
     height: auto;
 }
 */
+.post{
+    background-color: rgb(119, 186, 224);
+    padding-bottom: 2%;
+}
 .post h2{
     font-size: 50px;
     display: flex;
@@ -126,6 +160,7 @@ nav, navbar{
     margin-top: 7%;
     margin-bottom: 8%;
     background-color: cornflowerblue;
+    border: solid;
 }
 .contacto{
     font-size: 50px;
@@ -136,9 +171,12 @@ nav, navbar{
     justify-content: center;
     align-items: center;
     box-shadow: 10px 10px 14px 2px rgba(32 80 222 / 96%);
-    margin-top: 7%;
-    margin-bottom: 8%;
-    background-color: cornflowerblue;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: rgb(0, 0, 0);
+}
+.contacto, h2{
+    color: aliceblue;
 }
 .redsocial{
     display: flex;
