@@ -85,6 +85,10 @@ nav, navbar{
     background-color: rgb(119, 186, 224);
     border: solid;
 }
+.requisitos{
+    border: solid;
+    border-color: midnightblue;
+}
 .targeta{
     margin: 5%;
     padding: 0%;
