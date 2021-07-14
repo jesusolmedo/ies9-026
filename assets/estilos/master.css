@@ -49,6 +49,10 @@ nav, navbar{
     color:aliceblue;
 
 }
+.navbar-toggler-icon{
+    background-color: rgb(189, 205, 205);
+    border-radius: 30%;
+}
 .navbar-light .navbar-nav .nav-link, a {
     color: rgb(249 249 249 / 90%);
 }
@@ -81,7 +85,7 @@ nav, navbar{
 .oferta h1{
     text-align: center;
     margin-top: 1%;
-    box-shadow: 20px 20px 2px  hsl(47, 89%, 65%);
+    
     background-color: rgb(119, 186, 224);
     border: solid;
 }
