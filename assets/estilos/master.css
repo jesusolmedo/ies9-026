@@ -2,14 +2,16 @@
     margin: 0;
     padding: 0;
 
+
 }
 
+/*
 html {
     width: 100%;
     height: auto;
     display: flex;
 }
-
+*/
 body{
     background-color: white;
     font-family: 'Roboto Slab', serif;
@@ -73,6 +75,14 @@ nav, navbar{
     margin-bottom: 2%;
     padding: 2%;
 }
+.presentacion h2{
+    padding-left: 8%;
+}
+.presentacion ul{
+    width: 100%;
+    height: auto;
+    padding: 8%;
+}
 #carrusel{
     width: 100%;
     height: auto;
@@ -97,10 +107,18 @@ nav, navbar{
     margin: 5%;
     padding: 0%;
 }
+.tar{
+    width: 100%;
+    height: auto;
+}
 .col-lg-5{
-    margin: 3%;
-    padding: 1%;
+    margin: 0%;
+    padding: 0%;
     border-radius: 50%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    width: 100%;
+    height: auto;
 }
 .col-lg-5 img{
     border-radius: 9%;
@@ -123,6 +141,10 @@ nav, navbar{
     color: #212529;
     border: solid;
     box-shadow: 0px 0px 20px 14px;
+    width: 100%;
+    height: auto;
+    margin: -5%;
+    padding: 0%;
 }
 .btn-dark{
     color: rgb(240, 31, 198);
@@ -157,6 +179,8 @@ nav, navbar{
 .post{
     background-color: rgb(119, 186, 224);
     padding-bottom: 2%;
+    width: 100%;
+    height: auto;
 }
 .post h2{
     font-size: 50px;
@@ -171,6 +195,13 @@ nav, navbar{
     margin-bottom: 8%;
     background-color: cornflowerblue;
     border: solid;
+    width: 100%;
+    height: auto;
+}
+.post .row{
+    width: 100%;
+    height: auto;
+    padding-left: 8%;
 }
 .contacto{
     font-size: 50px;
@@ -185,6 +216,10 @@ nav, navbar{
     margin-bottom: 0%;
     background-color: rgb(0, 0, 0);
 }
+.contacto .foo{
+    width: 100%;
+    height: auto;
+}
 .contacto, h2{
     color: aliceblue;
 }
@@ -198,8 +233,18 @@ nav, navbar{
     height: 50%;
 }
 
-
-
+#clock {
+  font-size: 118%;
+  text-align: center;
+  margin: 1em;
+  background-color: rgb(108 229 232 / 90%);
+  border-radius: 35%;
+}
+.reloj h2{
+    font-size: 118%;
+    width: 100%;
+    color: #212529;
+}
 
 
 /* red social
