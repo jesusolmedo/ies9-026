@@ -86,6 +86,7 @@ nav, navbar{
 #carrusel{
     width: 100%;
     height: auto;
+    padding-top: 10%;
 
 }
 #carrusel img{
@@ -117,7 +118,7 @@ nav, navbar{
     border-radius: 50%;
     padding-bottom: 5%;
     padding-top: 5%;
-    
+
 }
 .col-lg-4 img{
     border-radius: 9%;
